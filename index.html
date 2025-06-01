@@ -3,18 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Mini Design</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Basic CSS Layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card-image"></div>
-        <div class="card-content">
-            <span class="tag">New</span>
-            <h3>Minimalist Design</h3>
-            <p>This clean card component features subtle gradients, smooth shadows, and a nice hover effect that makes it pop.</p>
-            <a href="#" class="btn">Learn More</a>
+
+    <header>
+        <h1>My Awesome Webpage</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to Our Site!</h2>
+            <p>This is the main content area of the webpage. We are using CSS Flexbox to lay out this section alongside the sidebar. Flexbox is a powerful one-dimensional layout method for arranging items in rows or columns. It's great for distributing space among items and aligning them within a container.</p>
+            <p>Here's some more content to fill the space. We aim to demonstrate a clean and responsive layout that adapts well to different screen sizes. Try resizing your browser window to see how the layout changes!</p>
+            <h3>Flexbox Advantages:</h3>
+            <ul>
+                <li>Easy alignment of items (horizontal and vertical)</li>
+                <li>Dynamic sizing and distribution of space</li>
+                <li>Excellent for responsive design</li>
+                <li>Less reliance on floats and clearfixes</li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+            <h3>About Us</h3>
+            <p>We are dedicated to providing high-quality content and services. Our mission is to educate and inspire.</p>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2025 Basic CSS Layout. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
